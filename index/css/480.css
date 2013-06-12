@@ -1,0 +1,53 @@
+@media screen and (max-width: 480px){
+
+     #Likefacebook{
+        margin-top: 2em;
+    }
+    header{   
+    background: url("led_cabecera.jpg") no-repeat -290%bottom,
+                #FFFFFF;
+    background-size: 480px;
+    width: 100%;
+
+    }
+
+    header h2 {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1em;
+        font-size: 1.8em;
+        text-align: right;
+        text-shadow: rgba(1,0,0,0.9) 2px 1px;
+    }
+
+    header h3 {
+        margin-right: 1em;
+        margin-left: auto;
+        margin-top: -3em;
+        padding-top: 2em;
+        color:#CCCC33;
+        text-shadow: rgba(1,0,0,0.7) 2px 1px;
+        text-align: right;
+    }
+    img {
+        width: 4em;
+        padding-top: -3em;
+        margin-left: -0.6em;
+        margin-bottom:-1.5em
+    }
+    #doc {
+        margin-left: -2em;
+        margin-right: auto;
+        width: 110%;
+    }
+
+    .slides li img { 
+        
+        margin-top: 0.1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+
+    }
+}
+        

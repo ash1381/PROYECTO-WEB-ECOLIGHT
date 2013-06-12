@@ -1,0 +1,146 @@
+@media screen and (max-width: 320px){
+
+    header{   
+    background: url("led_cabecera.jpg") no-repeat 50%bottom,
+                #FFFFFF;
+    background-size: 295px;
+    width: 100%;
+    }
+    header h2 {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 2.5em;
+        font-size: 1.7em;
+        text-align: right;
+        text-shadow:none;
+    }
+    header h3 {
+       
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 1.2em;
+        padding-bottom:0;
+        color:#CCCC33;
+        text-align: center;
+        text-shadow: rgba(0,0,0,0.8) 3px 2px;
+    }
+    img {
+        width: 6em;
+        margin-top: -0.4em;
+        margin-left: 0.4em;
+        margin-bottom: -0.1em;
+        float: center;
+    }
+
+    /* Info Legal de página */
+    #copyright
+    {
+      color: #1E3900;
+      padding-top: 1.5em;
+      padding-bottom: 1em;
+      margin-right: 7em;
+      margin-left: 0.5em;
+      text-align: left;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 0.6em;
+    }
+
+    /* Datos de dirección en Footer */
+    #direccion
+    {
+      margin-top: 0;
+      margin-left: 1em;
+      margin-right: 1em;
+      margin-bottom: 0.1em;
+      text-align: center;
+      font-size: 1em;
+    }
+    /* Facebook Logo-Botón */
+    #facebook
+    {
+      margin-top: 1em;
+      margin-left: -20em;
+    }
+
+    /* Contenedor de CopyRight y Logo as-diseño */
+    #legal
+    {
+      background: #ABA9A9;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: justify;
+      width: 92%;
+    }
+
+    #logo_asDiseno
+    {
+      margin-top: -3.7em;
+      margin-right: 0;
+      float: right;
+      width: 130px;
+    }
+
+/* Dirección de Mail */
+    #mail
+    {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0.1em;
+    text-align: center;
+    font-size: 1em;
+   
+    }
+    #doc {
+        margin-left: -2em;
+        margin-right: auto;
+        width: 110%;
+    }
+
+    /* Sección de texto Bienvenida */
+    #QuienesSomos
+    {
+    background: #FFFFFF; /* Para IE */
+    /* imagen en fondo */ 
+    background: url("logo_bienvenidos.jpg") no-repeat 50%top, 
+                #FFFFFF;
+              background-size: 230px;
+    border-radius: 0.5em;
+    color: #96B42D;
+    font-weight: bolder;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-top: 4em;
+    padding-bottom: 0.1em;
+    text-align: justify;
+    height: auto;
+    width: 80%;
+    }
+
+    /* Twitter Logo-Botón */
+    #twitter
+    {
+      margin-top:  -6em;
+      margin-left: -15em;
+    }
+    
+    #web
+    {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2.5em;
+    text-align: center;
+    font-size: 1em;
+    }
+
+    .slides li img { 
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+
+    }
+}
