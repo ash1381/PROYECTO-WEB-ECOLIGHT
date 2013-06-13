@@ -224,7 +224,7 @@ header h2
   margin-top:  -5.5em;
   margin-right: -10em;
 }
-
+/* Dirección Web */
 #web
 {
   margin-left: 2.5em;
@@ -360,7 +360,7 @@ header h2
     color: #CCCC33; 
 }
 
-/* formato y desplegado de submenu */
+/* formato y animación del desplegado de submenu */
 .menu ul {
 
     box-shadow: rgba(0,0,0,0.7) 4px 7px 5px;
@@ -401,7 +401,7 @@ header h2
     -ms-transition: height .25s ease .1s;
     transition: height .25s ease .1s;
 }
-/* alto y contenido del desplegado salido */
+/* alto y contenido del desplegado over */
 .menu li:hover > ul li 
 {
     border-left: none;
@@ -421,10 +421,6 @@ header h2
     height: auto;
 }
 
-@media screen and (max-width: 1050px){
-    
-
-}
 
 @media screen and (max-width: 740px){
     #Likefacebook{

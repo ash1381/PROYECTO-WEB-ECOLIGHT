@@ -1,0 +1,39 @@
+@media screen and (max-width: 1366px){
+    /* Logo */
+	header h1
+	{
+	    margin: -0.5em 0 0 1em;
+	    padding-top: 1em;
+	    float: left;
+	}
+
+	header h2
+	{
+	    font-size: 2.1em;
+	    margin: 0em 14em 0.3em 0;
+	    padding: 1.6em;
+	}
+
+	 header h3
+	 {
+	  font-size: 1.2em;
+	  margin: -2em 27em -2em 0;
+	  padding-bottom: 1.4em;
+	  font-weight: normal;
+	}
+
+	/* contenedor de Slider */
+	#content {
+	    
+	    max-height:550px;
+	    
+	}
+
+
+	#QuienesSomos
+	{
+	   
+	    margin-top: 0.5em;
+	    width: 85%;
+	}
+}

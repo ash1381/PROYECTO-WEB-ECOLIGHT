@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="http://www.ecolightmexico.com.mx/favicon.gif" type="image/gif" />
 	<link rel="stylesheet" href="normalize.css"/>
 	<link rel="stylesheet" href="estilos.css"/>
+    <!-- Links para jalar  css Medias -->
+    <link rel="stylesheet" href="1366.css" media="screen and (max-width: 1366px)"/>
     <link rel="stylesheet" href="480.css" media="screen and (max-width: 480px)"/>
     <link rel="stylesheet" href="320.css" media="screen and (max-width: 320px)"/>
 
@@ -21,13 +23,33 @@
             $('.blueberry').blueberry();
     });
     </script>
-
-    <style type="text/css" class= "fondofoto">
+    
+    <!-- Estilo para la imagen de Fondo CON sus RESPECTIVAS Medias -->
+    <style type="text/css">
     body {  
+
             background:url("fondoindex.jpg") no-repeat 5%top, 
                        #E4E4E4;
             background-size: 189px;
-       }
+         }  
+            @media screen and (max-width: 320px){
+             body{  
+
+            background:url("fondoindex.jpg") no-repeat 15%top,
+                       #E4E4E4;
+
+                }
+            }
+
+            @media screen and (max-width: 1366px){
+             body{  
+
+            background:url("fondoindex.jpg") no-repeat 17%top,
+                       #E4E4E4;
+                }
+            }
+
+
     </style>
 
 </head>
@@ -51,20 +73,20 @@
 	    <nav>
 	    	<ul class="menu" id="menu">
  
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a>
+                <li><a id="inicio"href="#">Inicio</a></li>
+                <li><a id="productos" href="#">Productos</a>
                 	<!-- submenu que se despliega -->
                     <ul> 
-                        <li><a href="#" class="Acuarios">Acuarios</a></li>
-                        <li><a href="#" class="Sport">Sport</a></li>
-                        <li><a href="#" class="Indutrias">Indutrias</a></li>
+                        <li><a id="acuarios" href="#" class="Acuarios">Acuarios</a></li>
+                        <li><a id="sport" href="#" class="Sport">Sport</a></li>
+                        <li><a id="industrias" href="#" class="Indutrias">Indutrias</a></li>
                     </ul>
                 <!-- resto de botonera -->
                 </li>
-                <li><a href="#">Acerca de</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li><a href="#">Fabricacion</a></li>
-                <li><a href="#">Otros</a></li>
+                <li><a id="acerca" href="#">Acerca de</a></li>
+                <li><a id="contacto" href="#">Contacto</a></li>
+                <li><a id="fabricacion" href="#">Fabricacion</a></li>
+                <li><a id="otros" href="#">Otros</a></li>
  
             </ul>
 
