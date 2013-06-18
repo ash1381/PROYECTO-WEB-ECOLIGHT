@@ -204,17 +204,24 @@ header h2
 /* Footer */
 #Footer
 {  
-   background: #277500; /* Para IE */
-   background: -webkit-linear-gradient(top, #277500 0%,#003808 100%);
-   background: -moz-linear-gradient(top, #277500 0%,#003808 100%);
-   background: -o-linear-gradient(top, #277500 0%,#003808 100%);
-   background: -ms-linear-gradient(top, #277500 0%,#003808 100%);
-   color: #CCCC33; 
-   margin-left: auto;
-   margin-right: auto;
-   padding-top: 1em;
-   padding-bottom: 1em;
-   width:92%;
+     
+    background-color: #277500;/* Para IE */
+      /* imagen que de fondo en footer */
+    background: url("manofoco.png") no-repeat 105%center, 
+                -webkit-linear-gradient(top, #277500 0% ,#003808 100%);
+    background: url("manofoco.png") no-repeat 100%center, 
+                -moz-linear-gradient(top, #277500 0% ,#003808 100%);
+    background: url("manofoco.png") no-repeat 100%center, 
+                -o-linear-gradient(top, #277500 0% ,#003808 100%); 
+    background: url("manofoco.png") no-repeat 100%center, 
+                -ms-linear-gradient(top, #277500 0% ,#003808 100%);               
+    color: #CCCC33; 
+    text-shadow: rgba(0,0,0,1) 2px 1px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width:92%;
 }
 
 /* Twitter Logo-Botón */
@@ -321,7 +328,7 @@ header h2
     border: none;
     outline: none;
 }
-/* Posición de menu */
+/* Altura de menu */
 .menu {
     
     height: 40px;
@@ -360,7 +367,7 @@ header h2
     color: #CCCC33; 
 }
 
-/* formato y animación del desplegado de submenu */
+/* formato y animación del desplegado de submenu (saliendo) */
 .menu ul {
 
     box-shadow: rgba(0,0,0,0.7) 4px 7px 5px;
@@ -377,7 +384,7 @@ header h2
     -ms-transition: opacity .25s ease .1s;
     transition: opacity .25s ease .1s;
 }
- /* hover desplegado */ 
+ /* desplegado saliendo */ 
 .menu li:hover > ul 
 { 
     
@@ -385,7 +392,7 @@ header h2
     border-bottom: 3px solid #CCCC33;
     z-index: 999;
 }
- /* inivisibilidad de desplegado */
+ /* Desplegado Metiendose*/
 .menu ul li 
 { 
     border-left: none;

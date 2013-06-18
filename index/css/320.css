@@ -7,21 +7,32 @@
     width: 100%;
     }
     
+ /* Logo */
+    header h1
+    {
+        margin: -0.5em; 
+        margin-right: 0.5em;
+        margin-left:auto;
+        margin-bottom: -2.5em;
+        float: center;
+    }
+
     header h2 {
+        color: #96B42D;
         margin-top: -0.6em;
         margin-left: auto;
         margin-right: auto;
-        padding-bottom: 2.5em;
-        font-size: 1.7em;
+        padding-bottom: 1.5em;
+        font-size: 1.5em;
+        font-weight: bold;
         text-align: center;
         text-shadow:none;
     }
     header h3 {
-       
+   
         margin-left: auto;
         margin-right: auto;
-        padding-top: 1.2em;
-        padding-bottom:0;
+        padding-bottom:1em;
         color:#CCCC33;
         text-align: center;
         text-shadow: rgba(0,0,0,0.8) 3px 2px;
@@ -80,7 +91,15 @@
       margin-left: auto;
       margin-right: auto;
       text-align: justify;
-      width: 92%;
+      width: 90%;
+    }
+
+    #Likefacebook{
+    margin-left: 0.9em;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 0em;
+    padding-top: 0.7em;
     }
 
     #logo_asDiseno
@@ -132,6 +151,15 @@
     width: 80%;
     }
 
+    /* Formato Gral de botonera */
+    #menu
+    {
+     
+       margin-left: 1.5em;
+       margin-right: 1.5em;
+       width: 0%;
+    }
+
  /* Formato de fondo para cada boton de Menú */    
    #acerca, #contacto, #fabricacion, #productos, #inicio, #otros
     {
@@ -151,10 +179,23 @@
         margin-right: auto;
 
         
-        width: 170px ;
+        width: 165px;
     
     }
 
+    /* Footer */
+    #Footer
+    {  
+       background: #277500; /* Para IE */
+       background: -webkit-linear-gradient(top, #277500 0%,#003808 100%);
+       background: -moz-linear-gradient(top, #277500 0%,#003808 100%);
+       background: -o-linear-gradient(top, #277500 0%,#003808 100%);
+       background: -ms-linear-gradient(top, #277500 0%,#003808 100%);
+       text-shadow:none;
+    }
+
+
+    
     /* Twitter Logo-Botón */
     #twitter
     {
@@ -178,7 +219,6 @@
     {
 
     display: list-item;
-    text-align: left;
     font-size: 16px;
     line-height: 35px;
     padding: 0 3.1em;
@@ -186,15 +226,52 @@
     
     }
 
+/*  desplegado saliendo*/ 
+    .menu li:hover > ul 
+    { 
+        
+        opacity: 1px; 
+        margin-right:auto;
+        margin-left:2em;
+        border-bottom: 3px solid #CCCC33;
+        z-index: 999;
+    }
+
 /* formato del desplegado de submenu */
     .menu ul {
-    border-radius: 0 0 10px 0;
-    width: 230px;
+    border-radius: 0 0 10px 10px;
+    width: 190px;
     position: absolute;
     top: 40px;
+   
  }
 
+  /* desplegado Metiendose */
+ .menu ul li 
+ { 
+     border-left: none;
+     margin-right:auto;
+     margin-left:auto;
+     height: 0;
+     width: 1px;
+     overflow: hidden;
+     z-index: 999;
+  
+     -webkit-transition: height .25s ease .1s;
+     -moz-transition: height .25s ease .1s;
+     -o-transition: height .25s ease .1s;
+     -ms-transition: height .25s ease .1s;
+     transition: height .25s ease .1s;
+ }
 
+/*  desplegado saliendo*/ 
+        .menu li:hover > ul 
+        { 
+
+            height: 115px;
+
+        }
+           
     .slides li img { 
         
         margin-left: auto;
